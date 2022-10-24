@@ -86,3 +86,6 @@
     margin: 1rem;
     text-align: center;
   }
+  .filter{
+    display: none;
+  }

@@ -4,7 +4,7 @@ const search = document.getElementById("search");
 window.addEventListener("DOMContentLoaded", apiFunction);
 document.addEventListener('keyup', e=>{
 
-if (e.target.matches("#input")){
+if (e.target.matches("#search")){
 
     if(e.key ==="Escape")e.target.value = ""
 
@@ -15,7 +15,6 @@ if (e.target.matches("#input")){
         :element.classList.add("filter")
     })
 }
-
 })
 
 function apiFunction() {
